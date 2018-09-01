@@ -7,13 +7,13 @@ DockerコンテナのNATの追加・削除をする簡易シェルスクリプ�
 コンテナのNAT追加
 
 ```
-$ ./container_nat.sh -a -p tcp -n 8080 -t 80 -c 172.17.0.2
+$ ./docker-container-nat.sh -a -p tcp -n 8080 -t 80 -c 172.17.0.2
 ```
 
 コンテナのNAT削除
 
 ```
-$ ./container_nat.sh -d -p tcp -n 8080 -t 80 -c 172.17.0.2
+$ ./docker-container-nat -d -p tcp -n 8080 -t 80 -c 172.17.0.2
 ```
 
 # License
